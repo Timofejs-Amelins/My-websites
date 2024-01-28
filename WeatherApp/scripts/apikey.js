@@ -1,1 +1,0 @@
-export const key = "5c26bf04ccmshde8c45c69a73787p130d1bjsncf18895c9dc6", host = "weatherapi-com.p.rapidapi.com"
