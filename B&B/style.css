@@ -1,0 +1,142 @@
+/* padding and margin are usually 0px */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#Header {
+	/* hide content that is too big to fit into header */
+	overflow: hidden;
+	/* tan background */
+	background-color: tan;
+	width: 100%;
+	height: 120px;
+}
+
+#BrandImage img {
+	max-width: 100px;
+}
+
+#BrandName {
+	width: 20%;
+	font-size: 30px;
+	font-family: "Magneto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	float: left;
+	color: black;
+}
+
+/* navigation bar style, 130px is perfect size for smaller screens */
+#Navigation {
+	width: 60%;
+	/* float it on the right to make creating collapsible navbar easy */
+}
+
+/* style for the buttons*/
+#Navigation a {
+	/* technically a list but no bullet points/numbers */
+	/* buttons go on right */
+	float: right;
+	line-height: 30px;
+	text-align: center;
+	/* thin button border */
+	border: 1px solid white;
+	/* buttons are rounded */
+	border-radius: 2em;
+	height: 30px;
+	width: 100px;
+	background-color: brown;
+	margin: 10px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	/* align to the center */
+	top: 50%;
+	color: white;
+}
+/* color is red when hovering over the butttons */
+#Navigation a:hover {
+	background-color: darkgreen;
+}
+
+/* due to the content height and for a mobile responsive design it is 3000px */
+#Lsidebar {
+	width: 20%;
+	height: 3000px;
+	background-color: tan;
+	font-size: 14px;
+}
+
+#Facebook,
+#Twitter,
+#Youtube {
+	/* add some spacing between the social media links */
+	padding: 15px;
+	/* put text in the center of the page */
+	text-align: center;
+}
+
+#Facebook a:hover,
+#Twitter a:hover,
+#Youtube a:hover {
+	color: gray;
+}
+
+#Content {
+	/* placed on the right */
+	width: 80%;
+	height: 3000px;
+	background-color: white;
+	float: right;
+}
+
+#Footer {
+	/* goes across the full width of the page */
+	width: 100%;
+	/* allow the footer height to adjust automatically based on its content */
+	height: auto;
+	background-color: tan;
+	text-align: center;
+	font-size: 15px;
+	line-height: 80px;
+}
+
+#Footer ul {
+	/* removing default margin and padding from using "#Footer ul" is necessary for #Footer ul to have no margin and padding and therefore remove interference with background color */
+	margin: 0;
+	padding: 0;
+	/* get rid of bullet points in list */
+	list-style-type: none;
+}
+
+#FooterNavigation li a {
+	/* remove default style from the footer navigation links */
+	text-decoration: none;
+	color: black;
+}
+
+#FooterNavigation li a:hover {
+	/* give the text a gray color on hover */
+	color: brown;
+}
+
+#Navigation,
+#Lsidebar,
+#Content,
+#Footer {
+	font-family: "Century Gothic", Tahoma, Arial, sans-serif;
+}
+
+/* rounded corners for all images */
+img {
+	border-radius: 50%;
+}
+
+/* the navbar will display vertically if there are too many elements */
+
+@media screen and (max-width: 400px) {
+	#Navigation {
+		float: none;
+		display: block;
+	}
+}

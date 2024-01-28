@@ -1,0 +1,6 @@
+.btn-dark:hover {
+    background-color: #ffffff !important;
+    color: #212529;
+    border-color: #212529;
+}
+/* above will make the button background white and provide a dark colour and dark border colour/

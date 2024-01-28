@@ -1,0 +1,238 @@
+/* style the body and add background colour*/
+body {
+    position: absolute;
+    width: 1118px;
+    height: 826px;
+    left: 86px;
+    font-family: 'Carlito', Verdana, sans-serif;
+    background-color: rgba(249, 255, 179, 1);
+}
+
+/* header position and size */
+.header {
+    position: absolute;
+    width: 1078px;
+    height: 262px;
+}
+
+
+
+/* pokemon logo style */
+.img {
+    position: absolute;
+    width: 464px;
+    height: 171px;
+    left: 307.5px;
+    top: 44px;
+    border-radius: 20px;
+    background-color: rgba(179, 249, 255, 1);
+    border: 1px solid rgba(126, 40, 122, 1);
+}
+
+
+/* pokemon logo alt text container style*/
+.alt-container {
+    position: absolute;
+    width: 272.5px;
+    height: 225px;
+    left: 785.5px;
+    top: 17px;
+    border-radius: 20px;
+    background-color: rgba(179, 249, 255, 1);
+    border: 1px solid rgba(126, 40, 122, 1);
+}
+
+/* alt text style */
+.alt-text {
+    position: absolute;
+    width: 261px;
+    height: 225px;
+    left: 12.5px;
+    color: rgba(126, 40, 122, 1);
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* website body background style*/
+.search-results-container {
+    position: absolute;
+    width: 1078px;
+    height: 505px;
+    left: 0px;
+    top: 262px;
+}
+
+/* website body container style */
+.search-results {
+    position: absolute;
+    width: 957px;
+    height: 455px;
+    left: 60.5px;
+    top: 25px;
+    border-radius: 20px;
+    background-color: rgba(179, 249, 255, 1);
+    border: 1px solid rgba(126, 40, 122, 1);
+}
+
+/* styling "Pokemon Search" container */
+.pokemon-search {
+    position: absolute;
+    width: 261px;
+    height: 41px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: rgba(249, 255, 179, 1);
+    border: 0.668386053733076px solid rgba(126, 40, 122, 1);
+}
+
+/* styling the pokemon search text */
+.pokemon-search-text {
+    position: absolute;
+    width: 249px;
+    height: 41px;
+    left: 12.5px;
+    color: rgba(126, 40, 122, 1);
+    font-style: normal;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* styling the search container */
+.text-field-container {
+    position: absolute;
+    width: 572px;
+    height: 41px;
+    left: 261.5px;
+    border: 0.668386053733076px solid rgba(126, 40, 122, 1);
+}
+
+
+/* styling the text field */
+.text-field {
+    position: absolute;
+    width: 560px;
+    height: 40px;
+    left: 12px;
+    color: rgba(126, 40, 122, 1);
+    font-style: normal;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+    background-color: rgba(179, 249, 255, 1);
+    border: none;
+    border-bottom: 1px solid rgba(126, 40, 122, 1);
+}
+
+/* styling the search button container */
+.search-button {
+    position: absolute;
+    width: 123px;
+    height: 41px;
+    left: 833.5px;
+    background-color: rgba(249, 255, 179, 1);
+    border-radius: 0px 20px 0px 0px;
+    border: 0.5918941824276696px solid rgba(126, 40, 122, 1);
+}
+
+/* styling the text inside the search button */
+.search-button-text {
+    position: absolute;
+    width: 110px;
+    height: 39px;
+    left: 12px;
+    color: rgba(126, 40, 122, 1);
+    font-style: normal;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+    background-color: rgba(249, 255, 179, 1);
+    border-radius: 0px 20px 0px 0px;
+    border: none
+}
+
+/* styles the Pokemon name */ 
+.name-container {
+    position: absolute;
+    width: 792px;
+    height: 89px;
+    left: 74.5px;
+    top: 99px;
+    border-radius: 20px;
+    border: 1px solid rgba(126, 40, 122, 1);
+}
+
+/* styles the Pokemon name text */
+.name {
+    width: 779px;
+    height: 89px;
+    left: 13px;
+    color: rgba(126, 40, 122, 1);
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* styles pokemon details text container */
+.pokemon-details {
+    position: absolute;
+    width: 792px;
+    height: 231px;
+    left: 74.5px;
+    top: 209px;
+    border-radius: 20px;
+    border: 1px solid rgba(126, 40, 122, 1);
+}
+
+/* styles pokemon text */
+.pokemon-text {
+    position: absolute;
+    width: 779px;
+    height: 231px;
+    left: 13px;
+    top: 0px;
+    color: rgba(126, 40, 122, 1);
+    font-style: normal;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* hover effect on blue inputs and outputs */
+.img:hover, .alt-container:hover, .text-field-container:hover, .text-field:hover, .name-container:hover, .pokemon-details:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), linear-gradient(rgba(179, 249, 255, 1),rgba(179, 249, 255, 1));
+}
+
+/* hover effect on yellow inputs and outputs */
+.pokemon-search:hover, .search-button:hover, .search-button-text:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), linear-gradient(rgba(249, 255, 179, 1),rgba(249, 255, 179, 1))
+}
+
+
+
+
+
+
+
+
+
